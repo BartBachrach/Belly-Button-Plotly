@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="menu"></div>
+    <!--if you were to code: console.log(d3.selectAll("#menu").node().id); it would print "menu" because the code is-->
+    <!--told to print the id of the <div> tag that creates the menu, which is itself "menu"-->
+    <select id="selectOption">
+        <option value="option1">First Option</option>
+        <option value="option2">Second Option</option>
+    </select>
+<script src="./script.js"></script>
+</body>
+</html>
+<!--in this html file, there are two cdn links, one to the d3 library, and another to plotly-->
+<!--the <select> tag indications a dropdown menu (as in, the user "selects" and item from the list), it's id is "selectOption"-->
+<!--the dropdown menu has two option, indicated by the <option> tags, with the values being internal names for each dropdown menu option-->
+<!--the select tag creates the dropdown menu, the option tags create the menu options-->
